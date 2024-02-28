@@ -1,0 +1,43 @@
+.aaa {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    height: 300px;
+  }
+  
+
+.header {
+    background-color: rgb(236, 149, 220);
+    height: 170px;
+    width: 350px;
+  }
+  
+  
+  .main {
+    background-color: rgb(146, 218, 240);
+    height: 200px;
+    width: 200px;
+    flex-direction: initial;
+    order: -1;
+  }
+  
+  .left {
+    background-color: white;
+    flex:100px;
+    order: -4;
+  }
+  
+  .right {
+    background-color: white;
+    flex:150px;
+    order: end;
+    
+  }
+
+  .footer{
+    background-color: rgb(13, 104, 51);
+    height: 250px;
+    width: 150px;
+    flex: 150px;
+    order: 5;
+  }
